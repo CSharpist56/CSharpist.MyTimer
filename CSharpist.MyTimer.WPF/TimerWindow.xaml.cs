@@ -10,8 +10,9 @@ namespace CSharpist.MyTimer.WPF
 
         public TimerWindow() => InitializeComponent();
 
-        private async void StartStopButton_Click(object sender, RoutedEventArgs e)
+        private async void StartButton_Click(object sender, RoutedEventArgs e)
         {
+            StartButton.IsEnabled = false;
             while (true)
             {
                 string result = await Task.Run(() => timer.Displaying());
