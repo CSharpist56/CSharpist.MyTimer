@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpist.MyTimer.CLI", "CSharpist.MyTimer.CLI\CSharpist.MyTimer.CLI.csproj", "{9EF59432-D881-4267-B7C6-8998579ACA68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpist.MyTimer.Library", "CSharpist.MyTimer.Library\CSharpist.MyTimer.Library.csproj", "{41006196-410B-418A-8CFF-01F354E11035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpist.MyTimer.WPF", "CSharpist.MyTimer.WPF\CSharpist.MyTimer.WPF.csproj", "{6285DCD3-DC5E-47A9-82AC-A702A1438A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{1728A75D-DE20-4DB4-A253-ED85964D8151}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF59432-D881-4267-B7C6-8998579ACA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF59432-D881-4267-B7C6-8998579ACA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF59432-D881-4267-B7C6-8998579ACA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF59432-D881-4267-B7C6-8998579ACA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41006196-410B-418A-8CFF-01F354E11035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41006196-410B-418A-8CFF-01F354E11035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41006196-410B-418A-8CFF-01F354E11035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41006196-410B-418A-8CFF-01F354E11035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6285DCD3-DC5E-47A9-82AC-A702A1438A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6285DCD3-DC5E-47A9-82AC-A702A1438A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6285DCD3-DC5E-47A9-82AC-A702A1438A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6285DCD3-DC5E-47A9-82AC-A702A1438A89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {335724D6-5E7E-42BC-8F2E-B6490534C729}
+	EndGlobalSection
+EndGlobal
